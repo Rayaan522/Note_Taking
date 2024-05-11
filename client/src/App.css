@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.swalcancelbtn {
+  box-shadow: none;
+  background-color: #f44336;
+  color: #FFF;
+  border: none;
+  cursor: pointer;
+  margin: .3125rem 1px;
+  padding: 6px 16px;
+  position: relative;
+  font-size: 12px;
+  min-width: auto;
+  min-height: auto;
+  text-align: center;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 400;
+  line-height: 1.42857143;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  touch-action: manipulation;
+  border-radius: 3px;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+
+.swalcancelbtn:hover {
+  color: #fff !important;
+}
+
+.swalokbtn {
+  box-shadow: none !important;
+  background-color: #4caf50 !important;
+  color: #FFF;
+  border: none;
+  cursor: pointer;
+  margin: .3125rem 1px;
+  padding: 6px 25px;
+  position: relative;
+  font-size: 12px;
+  min-width: auto;
+  min-height: auto;
+  text-align: center;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 400;
+  line-height: 1.42857143;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  touch-action: manipulation;
+  border-radius: 3px;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.swalokbtn:hover {
+  color: #fff !important;
+}
+
+.notescontainer {
+  
+    padding: 3% 3%;
+ 
+}
+
+.AddNoteCls {
+  background: darkseagreen !important;
+  width: 30%;
+  color: white !important;
+  margin-bottom: 12px !important;
+  /* font-size: 18px;
+  padding: 3%;
+  border-radius: 6px;
+  font-weight: 200;
+  font-family: cursive; */
+}
+
+.leftside {
+  background-color: #fff;
+  border-radius: 8px;
+  /* box-shadow: 6px 4px 6px rgba(0, 0, 0, 0.1); */
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1),
+            0 0 10px rgba(0, 0, 0, 0.1),
+            0 0 10px rgba(0, 0, 0, 0.1),
+            0 0 10px rgba(0, 0, 0, 0.1);
+            background: darkgrey;
+
+}
+
+.rightside{
+  background-color: #fff;
+  border-radius: 8px;
+  /* box-shadow: 6px 4px 6px rgba(0, 0, 0, 0.1); */
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1),
+            0 0 10px rgba(0, 0, 0, 0.1),
+            0 0 10px rgba(0, 0, 0, 0.1),
+            0 0 10px rgba(0, 0, 0, 0.1);
+            background: aliceblue;
+}
+.tablehead {
+  font-size: 16px !important;
+  font-weight: 800 !important;
+  font-family: math !important;
+  line-height: 0.2 !important;
+  letter-spacing: 0.7px !important;
+  color: #9b1010 !important;
+  background: darkcyan !important;
+}
+.tablecell {
+  font-size: 13px;
+  /* font-family: initial; */
+  font-family: ui-rounded;
+}
